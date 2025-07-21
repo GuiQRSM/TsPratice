@@ -1,14 +1,14 @@
 // ===> Exemplo 1
 
-let tarefaConcluida: boolean = true
-let tarefaPendente: boolean = false
+const tarefaConcluida = true
+const tarefaPendente = false
 
 console.log(tarefaConcluida, tarefaPendente)
 
 // ===> Exemplo 2
  
 
-let concluido: boolean = false;
+const concluido = false;
 
 if(concluido) {
     console.log('Tarefa devidamente concluída!')

@@ -1,15 +1,28 @@
 {
-  "name": "tsproject",
+  "name": "PraticeTS",
   "version": "1.0.0",
+  "description": "Curso TypeScript - Zero to Hero!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiQRSM/https://github.com/GuiQRSM/TsPratice"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "typescript": "^5.8.3"
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.2.1",
+    "prettier": "2.8.7"
   }
 }
